@@ -1,21 +1,25 @@
 Sales Data Analysis Dashboard
 
-📌 Project Description
+📌 Project Description-
+
 This project analyzes a real-world sales dataset to extract actionable business insights using Python-based data analysis and visualization techniques. The dashboard highlights sales trends over time, best-selling product categories, regional performance, and customer purchasing behavior.
 The entire analysis is implemented in a Jupyter Notebook using Pandas, Matplotlib, and Seaborn.
 
-🛠 Tech Stack
+🛠 Tech Stack -
+
 Language: Python
 Libraries: Pandas, Matplotlib, Seaborn
 Environment: Jupyter Notebook
 
-📂 Dataset Details
+📂 Dataset Details-
+
 Source: CSV file (sales_data_sample.csv)
 Records: 2823 rows
 Features: 25 columns including: 	ORDERNUMBER,	QUANTITYORDERED,	PRICEEACH,	ORDERLINENUMBER,	SALES,	ORDERDATE,	STATUS,	QTR_ID,	MONTH_ID,	YEAR_ID,	...	ADDRESSLINE1,	ADDRESSLINE2,	CITY,	STATE,	POSTALCODE,	COUNTRY	TERRITORY,	CONTACTLASTNAME,	CONTACTFIRSTNAME,	DEALSIZ
 
 
-🔧 Data Preprocessing
+🔧 Data Preprocessing-
+
 The following data cleaning and feature engineering steps were performed:
 Converted column names to lowercase and removed whitespace
 Removed missing values in critical columns (sales, orderdate)
@@ -24,7 +28,8 @@ Extracted:
 month from order date
 year from order date
 
-📊 Visualizations & Analysis
+📊 Visualizations & Analysis-
+
 1️⃣ Monthly Sales Trend
 Line plot showing monthly sales trends
 Comparison across years (2003–2005)
@@ -54,26 +59,30 @@ Medium deals contribute the largest revenue portion
 Heatmap showing sales intensity by month and year
 Highlights strong sales periods visually
 
-📁 Project Structure
+📁 Project Structure-
+
 Sales-Data-Analysis-Dashboard/
 │
 ├── sales_data_sample.csv
 ├── Sales_Data_Analysis.ipynb
 └── README.md
 
-▶️ How to Run the Project
+▶️ How to Run the Project-
+
 Clone or download the repository
 Install required libraries:
 pip install pandas matplotlib seaborn
 Open Sales_Data_Analysis.ipynb in Jupyter Notebook
 Run cells sequentially to reproduce the analysis and visualizations
 
-📈 Key Insights
+📈 Key Insights-
+
 Sales peak consistently in later months of the year
 Classic Cars dominate product sales
 USA leads significantly in total revenue
 Medium deal sizes generate maximum revenue
 Year 2004 recorded the highest overall sales
 
-✅ Conclusion
+✅ Conclusion-
+
 This project demonstrates effective use of data cleaning, aggregation, and visualization to analyze sales performance. The insights obtained can support business decision-making, market strategy, and sales optimization.
