@@ -1,4 +1,5 @@
 Sales Data Analysis Dashboard
+
 📌 Project Description
 This project analyzes a real-world sales dataset to extract actionable business insights using Python-based data analysis and visualization techniques. The dashboard highlights sales trends over time, best-selling product categories, regional performance, and customer purchasing behavior.
 The entire analysis is implemented in a Jupyter Notebook using Pandas, Matplotlib, and Seaborn.
